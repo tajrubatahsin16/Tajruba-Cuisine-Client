@@ -1,0 +1,20 @@
+.chefs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+@media screen and (max-width: 688px) {
+    .about{
+        flex-direction: column;
+    }
+    .chefs{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .sponsors{
+        flex-direction: column;
+    }
+}
